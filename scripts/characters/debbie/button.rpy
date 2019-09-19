@@ -40,7 +40,7 @@ label mom_button_dialogue:
 
                         call expression game.dialog_select("debbie_dialogue_mom_revealing_feel_ass_no_sex")
                         jump expression game.dialog_select("debbie_dialogue_options")
-                "Talk":
+                "Falar":
 
                     call expression game.dialog_select("debbie_dialogue_mom_revealing_talk")
                     jump expression game.dialog_select("debbie_dialogue_options")
@@ -69,7 +69,7 @@ label mom_button_dialogue:
             "Paint." if M_dewitt.is_state([S_dewitt_ask_deb_paint, S_dewitt_ask_diane_paint, S_dewitt_shed_get_paint]):
                 call expression game.dialog_select("debbie_dialogue_paint")
                 $ M_dewitt.trigger(T_dewitt_diane_find_paint)
-            "Help {b}[deb_name]{/b} around the house.":
+            "Ajudar {b}[deb_name]{/b} arrumar a casa.":
 
                 if M_mom.is_state([S_mom_fill_mower, S_mom_mow_lawn]):
                     call expression game.dialog_select("debbie_dialogue_help_mow_lawn")
@@ -191,3 +191,4 @@ label mom_button_dialogue:
     with dissolve
     $ game.main()
 # Decompiled by unrpyc: https://github.com/CensoredUsername/unrpyc
+# TRADUÇÃO COMPLETA?!
