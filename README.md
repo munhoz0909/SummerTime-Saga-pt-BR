@@ -7,5 +7,6 @@ Fique à vontade!
 
 #Progresso:
 - Debbie 100% traduzida localmente. Depois eu subo para o GIT.
+- Jenny 100% traduzida.
 
 
