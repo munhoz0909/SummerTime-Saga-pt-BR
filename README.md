@@ -5,8 +5,9 @@ Versão: SummertimeSaga-0.18.6 para PC
 # Quer ajudar a traduzir? 
 Fique à vontade!
 
-#Progresso:
+# Progresso:
 - Debbie 100% traduzida localmente. Depois eu subo para o GIT.
 - Jenny 100% traduzida.
+
 
 
