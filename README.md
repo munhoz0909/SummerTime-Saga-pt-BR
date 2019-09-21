@@ -10,4 +10,5 @@ Fique à vontade!
 - Jenny 100% traduzida.
 - Diane 100% traduzida localmente. Depois de testar eu subo para o GIT.
 - Mrs. Johnson 100% traduzida localmente. Depois de testar eu subo para o GIT.
+- Dexter 100% traduzido.
 
