@@ -1,45 +1,45 @@
 label button_dexter_talent_show:
     show dexter 1
     show player 10
-    player_name "Hey {b}Dexter{/b}, you play any instruments?"
+    player_name "Hey {b}Dexter{/b}, Você toca algum instrumento?"
     show player 5
     show dexter 2
     dex "Huh?"
     show player 12
-    player_name "I-N-S-T-R-U-M-E-N-T-S. You know, like for music... Do you play any?"
+    player_name "I-N-S-T-R-U-M-E-N-T-O. Você sabe, como para a música ... Você joga qualquer?"
     show player 5
     show dexter 8
-    dex "Do I look like some kinda band geek to you?!"
+    dex "Pareço algum geek da banda meio que lhe?!"
     show dexter 2
     show player 12
-    player_name "Ehh, no? I just thought maybe you had a hidden talent for banging the drums or something?"
+    player_name "Ehh, não? Eu só pensei que talvez você tivesse um talento escondido para bater os tambores ou algo?"
     show player 5
     show dexter 6 with dissolve
-    dex "I'd like to bang on your stupid face with my fists..."
-    dex "You think that would make some music?"
+    dex "Eu gostaria de bater em seu rosto estúpido com meus punhos ..."
+    dex "Você acha que faria alguma música?"
     show dexter 5
     show player 29 with dissolve
-    player_name "Heh, I was just leaving..."
+    player_name "Heh, eu estava de saída ..."
     show player 3
     show dexter 4 with dissolve
-    dex "Yeah, you better!"
+    dex "Sim, é melhor você!"
     return
 
 label button_dexter_challenge:
     show player 12
-    player_name "I'm here to challenge you, {b}Dexter{/b}."
+    player_name "Estou aqui para desafiá-lo, {b}Dexter{/b}."
     show player 5
     show dexter 3
     dex "Ha ha!"
-    dex "To what?!"
+    dex "Para quê?!"
     show dexter 1
     show player 10
-    player_name "To uh..."
+    player_name "Para uh..."
     show player 5
     show dexter 3
-    dex "You know I'd beat you at anything."
+    dex "Você sabe que eu te bater em qualquer coisa."
     show dexter 4 with dissolve
-    dex "Now fuck off before I decide to beat the shit out of you."
+    dex "Agora cai fora antes de me decidir a bater a merda fora de você."
     return
 
 label button_dexter_library_book:
@@ -47,82 +47,82 @@ label button_dexter_library_book:
     player_name "Hey, umm, {b}Dexter{/b}..."
     show player 5
     show dexter 3
-    dex "What do you want Twerp?"
+    dex "O que você quer imbecil?"
     show dexter 1
     show player 10
-    player_name "Did you remember where you left the library book you checked out..."
+    player_name "Você se lembra onde deixou o livro da biblioteca que você check-out..."
     show player 5
     show dexter 8
-    dex "Library book?"
+    dex "Livro da biblioteca?"
     show dexter 4 with dissolve
-    dex "Didn't I tell you to get outta here, {b}[firstname]{/b}?"
-    dex "Or do you want a knuckle sandwich!"
+    dex "Eu não disse que você sair daqui, {b}[firstname]{/b}?"
+    dex "Ou você quer um sanduíche da junta!"
     show dexter 2 with dissolve
     show player 12
-    player_name "Alright, alright, I'm going!"
+    player_name "Certo, certo, eu vou!"
     hide dexter with dissolve
     show player 10f at center with dissolve
-    player_name "I wonder if the librarian made a mistake?"
+    player_name "Pergunto-me se o bibliotecário cometeu um erro?"
     show player 5f
     player_name "..."
     show player 12f
-    player_name "He could be lying. {b}I should check his locker{/b}!"
-    player_name "Hopefully it's in there, otherwise I dunno what I'm gonna do..."
+    player_name "Ele poderia estar mentindo. {b}I deve verificar seu armário{/b}!"
+    player_name "Esperemos que ele está lá, caso contrário eu não sei o que eu vou fazer..."
     return
 
 label button_dexter_nothing:
     show player 10
-    player_name "I... uhh... didn't mean to bother you."
-    player_name "I need to get to class."
+    player_name "I ... uhh ... não queria incomodá-lo."
+    player_name "Eu preciso ir para a aula."
     show player 5
     show dexter 3
-    dex "Run along, loser."
+    dex "Corra junto, perdedor."
     return
 
 label dexter_button_pushups:
     show player 16 at left
     show dexter 12 at right
     with dissolve
-    dex "Oh, you want a rematch huh?"
-    dex "No problem, nerd!"
-    dex "I'll show you how it's done!"
+    dex "Oh, você quer uma revanche huh?"
+    dex "Não tem problema, nerd!"
+    dex "Eu vou te mostrar como se faz!"
     show dexter 11
     scene gym
     show player 16 at left
     show dexter 11 at right
     with dissolve
-    bri "Alright, boys. You know the drill!"
-    bri "Last man standing wins!"
+    bri "Tudo bem, rapazes. Você sabe o que fazer!"
+    bri "Último homem de pé vitórias!"
     show dexter 12
-    dex "Hahaha, watch and learn... NERD!"
+    dex "Hahaha,assista e aprenda ... NERD!"
     hide player
     hide dexter
     with dissolve
-    bri "GO!"
+    bri "VAI!"
     return
 
 label dexter_button_pushups_rematch:
     show player 5 at left
     show dexter 15 at right
     with dissolve
-    dex "How about a rematch, nerd?!"
+    dex "Como sobre uma revanche, nerd?!"
     show dexter 14
     show player 12
-    player_name "What?! C'mon, man... You lost."
-    player_name "Just move on."
+    player_name "O que?! Vamos lá, cara ... Você perdeu."
+    player_name "Apenas siga em frente."
     show player 5
     show dexter 12 with dissolve
-    dex "Psh, you scared you're gonna lose?"
+    dex "Psh, você tem medo você vai perder?"
     show dexter 11
     show player 12
-    player_name "No."
+    player_name "Não."
     show player 90
     show dexter 28 with dissolve
-    dex "{b}[firstname]'s{/b} a chicken, everybody!"
+    dex "{b}[firstname]'s{/b} uma galinha, todo mundo!"
     show dexter 11 with dissolve
     show player 12
-    player_name "... Tch, fine."
-    player_name "Let's do it!"
+    player_name "... Tch, bem."
+    player_name "Vamos fazer isso!"
     hide player
     hide dexter
     with dissolve
@@ -132,18 +132,18 @@ label button_dexter_intro_beginning:
     show player 5 at left
     show dexter 3 at right
     with dissolve
-    dex "What are you looking at, loser?!"
+    dex "Wchapéu que você está olhando, perdedor?!"
     show dexter 1
     show player 10
-    player_name "Nothing."
+    player_name "Nada."
     show player 5
     show dexter 3
-    dex "Yeah, that's right!"
-    dex "Keep on walkin' bitch!"
+    dex "Sim, está certo!"
+    dex "Continue andando puta!"
     dex "Hahahaha!"
     hide dexter with dissolve
     show player 12
-    player_name "Ugh, he's such an asshole..."
+    player_name "Ugh, ele é um idiota..."
     hide player with dissolve
     return
 
@@ -151,27 +151,27 @@ label button_dexter_intro:
     show player 5 at left
     show dexter 3 at right
     with dissolve
-    dex "I thought I smelled a little bitch!"
+    dex "Eu pensei que eu cheirei uma vadia!"
     show dexter 2
     show player 12
-    player_name "Screw you, {b}Dexter{/b}..."
+    player_name "parafuso you, {b}Dexter{/b}..."
     show player 90
     show dexter 6 with dissolve
-    dex "WHAT DID YOU SAY?!"
+    dex "O QUE que você disse?!"
     show dexter 4 with dissolve
     show player 11
-    dex "You want me to knock your ass out, right here?!"
+    dex "Você quer que eu bater o seu burro para fora, aqui mesmo,?!"
     show dexter 2 with dissolve
     player_name "..."
     show dexter 3
-    dex "Yeah, that's what I thought."
+    dex "Sim, isso é o que eu pensava."
     show dexter 6 with dissolve
-    dex "You better be staying away from my girl!"
+    dex "É melhor ficar longe da minha menina!"
     show dexter 2 with dissolve
     show player 5
     player_name "..."
     show dexter 4 with dissolve
-    dex "You hear me, bitch?!"
+    dex "Você me ouve, cadela?!"
     show dexter 2 with dissolve
     return
 
@@ -181,13 +181,13 @@ label button_dexter_intro_final:
     with dissolve
     dex "..."
     show player 12
-    player_name "I'm sorry, did you say something, {b}Dexter{/b}?"
+    player_name "Sinto muito, você disse alguma coisa, {b}Dexter{/b}?"
     show player 91
     show dexter 8
-    dex "No!"
+    dex "Não!"
     show dexter 2
     show player 12
-    player_name "Yeah, that's what I thought."
+    player_name "Yeah, isso é o que eu pensava."
     show player 91
 
     dex "..."
@@ -195,73 +195,73 @@ label button_dexter_intro_final:
 
 label button_dexter_basketball_final:
     show player 12
-    player_name "Still playing basketball?"
+    player_name "Ainda jogando basquete?"
     show player 91
     dex "..."
     show player 12
-    player_name "Have you guys managed to win a game yet?"
+    player_name "Vocês já conseguiu ganhar um jogo?"
     show player 91
     show dexter 8
-    dex "I don't wanna talk about it!"
+    dex "Eu não quero falar sobre isso!"
     show dexter 2
     show player 12
-    player_name "I'm just trying to-"
+    player_name "Eu só estou tentando-"
     show player 11
     show dexter 8
-    dex "Leave me alone, {b}[firstname]{/b}!"
+    dex "Me deixe em paz, {b}[firstname]{/b}!"
     hide dexter with dissolve
     pause
     show player 10
-    player_name "Sheesh, alright."
+    player_name "Sheesh, tudo bem."
     hide player with dissolve
     return
 
 label button_dexter_basketball:
     show player 12
-    player_name "Still playing basketball?"
+    player_name "Ainda jogar basquete?"
     show player 90
     show dexter 3
-    dex "Of course, I was born to play!"
+    dex "Claro, eu nasci para jogar!"
     show dexter 1
     show player 12
-    player_name "Have you even won a game yet?"
+    player_name "Você já ganhou um jogo?"
     show player 90
     show dexter 3
-    dex "Psh, Yeah. Like a hundred million..."
+    dex "Psh, Yeah. Como uma centena de milhões ..."
     show dexter 1
     show player 12
-    player_name "Yeah right! You guys are awful..."
+    player_name "Okay, certo! Vocês são terríveis ..."
     show player 90
     show dexter 4 with dissolve
-    dex "HEY! You want a knuckle sandwich, loser?!"
+    dex "EI! Você quer uma junta sanduíche, perdedor ?!"
     show dexter 2 with dissolve
     player_name "..."
     show dexter 3
-    dex "What does a little bitch like you know about basketball anyways?!"
-    dex "It's a man's sport!"
+    dex "O que faz uma pequena cadela como você sabe sobre basquete de qualquer maneira?!"
+    dex "É um esporte de homem!"
     show dexter 1
     show player 17
-    player_name "Oh, well then, it's no wonder why you ladies can't win a game."
+    player_name "Oh, bem, então, não é de admirar por isso que as senhoras não podem ganhar um jogo."
     show player 13
     show dexter 3
-    dex "Huh? I don't-"
-    dex "Oh, you think that's funny?!"
+    dex "Hã? Eu não-"
+    dex "Oh, você acha que é engraçado?!"
     show dexter 8
-    dex "How about I knock some of your teeth out?!"
+    dex "Que tal se eu bater alguns dos seus dentes?!"
     show player 5
-    dex "That would be pretty funny, wouldn't it?!"
+    dex "Isso seria muito engraçado, não é ?!"
     show dexter 2
     return
 
 label button_dexter_whatever:
     show player 12
-    player_name "Tch, Yeah. Whatever, man..."
+    player_name "Tch, Yeah. Seja como for, o homem..."
     hide player with dissolve
     pause
     show dexter 8
-    dex "Hey, I'm not kidding {b}[firstname]{/b}!"
-    dex "Stay away from, {b}Roxxy{/b}!"
-    dex "She's mine!"
+    dex "Hey, eu não estou brincando {b}[firstname]{/b}!"
+    dex "Fique longe de, {b}Roxxy{/b}!"
+    dex "Ela é minha!"
     hide dexter
     hide player
     with dissolve
@@ -269,28 +269,28 @@ label button_dexter_whatever:
 
 label button_dexter_behaving:
     show player 12
-    player_name "I trust you're behaving yourself."
+    player_name "Eu confio em você está se comportando-se."
     show player 90
     show dexter 8
-    dex "... Yes."
+    dex "... sim."
     show dexter 2
     show player 12
-    player_name "You do remember what happens, if I catch you messing with my friends again, right?"
+    player_name "Você se lembra o que acontece, se eu te pego brincando com meus amigos de novo, certo?"
     show player 92
-    player_name "Do you need a reminder?!"
+    player_name "Você precisa de um lembrete?!"
     show player 91
     show dexter 8
-    dex "NO!"
-    dex "I remember..."
+    dex "NÃO!"
+    dex "Eu lembro..."
     show dexter 2
     show player 92
-    player_name "Good."
+    player_name "Boa."
     show player 91
     return
 
 label button_dexter_run_along:
     show player 12
-    player_name "Run along now, {b}Dexter{/b}."
+    player_name "Corra ao longo agora, {b}Dexter{/b}."
     show player 91
     dex "..."
     show dexter 8
@@ -299,7 +299,7 @@ label button_dexter_run_along:
     pause
     show player 17
     player_name "Hahaha!"
-    player_name "I like the new {b}Dexter{/b}!"
+    player_name "Eu gosto do novo {b}Dexter{/b}!"
     hide player with dissolve
     return
-# Decompiled by unrpyc: https://github.com/CensoredUsername/unrpyc
+# TRADUZIDO
