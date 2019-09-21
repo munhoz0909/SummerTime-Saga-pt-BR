@@ -6,8 +6,8 @@ Versão: SummertimeSaga-0.18.6 para PC
 Fique à vontade!
 
 # Progresso:
-- Debbie 100% traduzida localmente. Depois eu subo para o GIT.
+- Debbie 100% traduzida localmente. Depois de testar eu subo para o GIT.
 - Jenny 100% traduzida.
-- Diane 100% traduzida localmente. Depois eu subo para o GIT.
-
+- Diane 100% traduzida localmente. Depois de testar eu subo para o GIT.
+- Mrs. Johnson 100% traduzida localmente. Depois de testar eu subo para o GIT.
 
