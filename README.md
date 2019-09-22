@@ -12,3 +12,5 @@ Fique à vontade!
 - Mrs. Johnson 100% traduzida localmente. Depois de testar eu subo para o GIT.
 - Dexter 100% traduzido.
 - Mestre Somrak 100% traduzido.
+- Okita 100% traduzida localmente. Depois de testar eu subo para o GIT.
+- Erik 100% traduzida localmente. Depois de testar eu subo para o GIT.
