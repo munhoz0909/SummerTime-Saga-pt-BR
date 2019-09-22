@@ -14,3 +14,4 @@ Fique à vontade!
 - Mestre Somrak 100% traduzido.
 - Okita 100% traduzida localmente. Depois de testar eu subo para o GIT.
 - Erik 100% traduzida localmente. Depois de testar eu subo para o GIT.
+- Roxxy 100% traduzida localmente (Essa foi difícil). Depois de testar eu subo para o GIT.
