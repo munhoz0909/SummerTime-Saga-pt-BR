@@ -1,7 +1,7 @@
 label mom_cupid_outing_choose_gift:
     show player 5 at left with dissolve
     show debbie 165 at Position(xpos=.75, ypos=1.0) with dissolve
-    deb "Você encontru algo, querida?"
+    deb "Você encontrou algo, querido?"
     show player 10
     show debbie 164
     player_name "Eu ainda estou procurando."
