@@ -6,7 +6,7 @@ label button_missy_becca_chat_with_becca_missy:
     show becca 1f
     show missy 1b
     missy "Parece que sim! "
-    senhorita "... E o verde não complementa o seu cabelo?"
+    missy "... E o verde não complementa o seu cabelo?"
     show missy 1
     show becca 2f
     becca "Hmm, sim. Suponho que sim. "
@@ -34,7 +34,7 @@ label button_missy_becca_chat_with_becca_missy:
     show becca 1f
     show missy 1b
     missy "Sim, ela meio que é ... "
-    senhorita "... Mas é por isso que eu acredito nela!"
+    missy "... Mas é por isso que eu acredito nela!"
     show missy 8
     missy "eu aposto {b}[firstname]{/b} está embalando um calor sério! "
     show missy 7
