@@ -406,38 +406,38 @@ label button_ross_found_model:
     hide judithross
     show judith 67 at Position(xpos=0.4, ypos=1.0)
     with dissolve
-    ross "Spread your wings, {b}Judith{/b}."
-    ross "Let the world see you fly!"
+    ross "Abra suas asas, {b}Judith{/b}."
+    ross "Deixe o mundo ver você voar! "
     show judith 68b
     show ross 36f at Position(xpos=0.65, ypos=1.0)
     with dissolve
-    ross "{b}*Gasp*{/b} Perfection!"
+    ross "{b}*Suspiro*{/b} Perfeição!"
     show judith 69
     show ross 37f
-    jud "... You think I'm perfect?"
+    jud "... Você acha que eu sou perfeita? "
     show judith 68
     show ross 36f
-    ross "Of course, sweetie!"
-    ross "Just look at that curvaceous body..."
-    ross "How could anyone resist it?"
+    ross "Claro, querida! "
+    ross "Basta olhar para aquele corpo curvilíneo ... "
+    ross "Como alguém pôde resistir a isso? "
     show ross 37f
     pause
     show ross 36f
-    ross "Now, don't you move an inch!"
-    ross "Give the artists a chance to capture your beauty!"
+    ross "Agora, não mexa uma polegada! "
+    ross "Dê aos artistas a chance de capturar sua beleza! "
     show ross 37f
     show judith 69b
-    jud "O-Okay..."
+    jud "O-Ok..."
 
 
 
     scene location_school_art_cutscene07
     with fade
-    show text "{b}Miss Ross{/b} had definitely made {b}Judith{/b} more comfortable." at Position (xpos= 512, ypos= 700) with dissolve
+    show text "{b}Miss Ross{/b} defiitivamente fez {b}Judith{/b} ficar mais confortável." at Position (xpos= 512, ypos= 700) with dissolve
     pause
-    show text "... And she had given me the perfect inspiration for my drawing!" at Position (xpos= 512, ypos= 700) with dissolve
+    show text "... E ela me deu a inspiração perfeita para o meu desenho!" at Position (xpos= 512, ypos= 700) with dissolve
     pause
-    show text "Though it was little hard to concentrate on my work with {b}Miss Ross{/b} hovering over my shoulder..." at Position (xpos=512, ypos=700) with dissolve
+    show text "Embora tenha sido um pouco difícil me concentrar no meu trabalho com {b}Miss Ross{/b} pairando sobre meu ombro..." at Position (xpos=512, ypos=700) with dissolve
     pause
     hide text
     with dissolve
@@ -446,14 +446,14 @@ label button_ross_found_model:
     show judith 68 zorder 1 at Position(xpos=0.4, ypos=1.0)
     show ross 36f zorder 0 at Position(xpos=0.65, ypos=1.0)
     with dissolve
-    ross "It's very good, {b}[firstname]{/b} but I think you could do better."
-    ross "I'm not sure you're really capturing the curves of her delicious body."
+    ross "É muito bom, {b}[firstname]{/b} mas acho que você poderia fazer melhor. "
+    ross "Não tenho certeza se você está realmente capturando as curvas do corpo delicioso dela. "
     show ross 37f
-    player_name "What do you mean?"
+    player_name "O que você quer dizer?
     show ross 36f
-    ross "Well have a look!"
-    ross "Sometimes you have to really get hands on with your subject and feel the shapes."
-    ross "... And {b}Judith{/b} here has such great contours!"
+    ross "Bem, dê uma olhada! "
+    ross "Às vezes, você precisa realmente colocar as mãos no assunto e sentir as formas ".
+    ross "... E {b}Judith{/b} aqui tem ótimos contornos! "
     hide ross
     show judith 70
     with dissolve
@@ -466,26 +466,26 @@ label button_ross_found_model:
     jud "( !!! )" with hpunch
     jud "AAAhh!"
     show judith 72e
-    ross "... Well look who came out to play!"
+    ross "... Bem, veja quem saiu para jogar! "
     show judith 72c_72d
     pause
     jud "Mmm..."
     show judith 72e
-    ross "How does that feel, sweetie?"
+    ross "Como é isso, querida? "
     show judith 72
-    jud "Really..."
-    jud "Ahh, really good!"
+    jud "Realmente..."
+    jud "Ahh, muito bom! "
     show judith 72e
-    ross "Yes, you just enjoy, Dear."
+    ross "Sim, você apenas gosta, querida. "
     show judith 72c_72d
     jud "NNGGHH!"
     pause
     show judith 72
     jud "Haaaah!"
     show judith 72e
-    ross "Beautiful!"
+    ross "Bela!"
     show judith 72
-    jud "OH, I CAN'T!"
+    jud "OH, NÃO POSSO! "
     show judith 73 zorder 1 at Position(xpos=0.45, ypos=1.0)
     show ross 37f zorder 0 at Position(xpos=0.65, ypos=1.0)
     with dissolve
@@ -495,74 +495,74 @@ label button_ross_found_model:
     jud "Haaah... Haaah..."
     show judith 65
     show ross 36f
-    ross "Very good, sweetie!"
+    ross "Muito bem, querida! "
 
     show judith 58f zorder 0 at left
     show ross 37f
     with dissolve
-    jud "That was..."
+    jud "Aquilo foi..."
     show judith 57f
     jud "..."
     show judith 58f
-    jud "... Can we do that again?"
+    jud "... Podemos fazer isso de novo? "
     show judith 57f
     show ross 36f
-    ross "... Maybe later, sweetie."
+    ross "... Talvez mais tarde, querida. "
     show ross 36 at Position(xpos=0.60, ypos=1.0)
     with dissolve
-    ross "Do you understand now, what I mean about feeling the shapes, {b}[firstname]{/b}?"
+    ross "Você entende agora o que quero dizer sobre sentir as formas, {b}[firstname]{/b}?"
     show ross 37
-    player_name "I'm not sure..."
+    player_name "Não tenho certeza..."
     show mia 82 zorder 1 at Position(xpos=0.35, ypos=1.0) with dissolve
 
-    mia "I think I get it, {b}Miss Ross{/b}!"
+    mia "Acho que entendi, {b}Miss Ross{/b}!"
     show mia 81
     show ross 36f with dissolve
-    ross "Good, you can help me show him then."
+    ross "Bom, você pode me ajudar a mostrar a ele então. "
     show ross 36 with dissolve
-    ross "Come up here and join us, {b}[firstname]{/b}!"
+    ross "Venha aqui e junte-se a nós, {b}[firstname]{/b}!"
     show ross 37
-    player_name "Really?"
+    player_name "Serio?"
     show ross 36
-    ross "Yes, this is something every good artist needs to understand."
+    ross "Sim, isso é algo que todo bom artista precisa entender. "
     hide mia
     hide ross
     show rossg 3 at Position(xpos=0.60, ypos=1.0)
     with dissolve
-    player_name "O-okay."
+    player_name "O-ok."
     show rossg 1
-    ross "Now, go ahead."
+    ross "Agora vá em frente. "
     show rossg 2
-    ross "Both of you..."
+    ross "Vocês dois..."
     show rossg 1
-    ross "... Feel the shapes."
+    ross "... Sinta as formas. "
     show rossg 4
-    mia "Hehehe, okay!"
+    mia "Hehehe, ok!"
     show rossg 5_6 with dissolve
     pause
     show rossg 3 with dissolve
-    player_name "... Like that?"
+    player_name "... Curtiu isso?"
     show rossg 1
-    ross "Mmmhmm... Just like that..."
+    ross "Mmmhmm... Bem desse jeito..."
     show rossg 4
-    mia "Hehehee, I hope God isn't watching..."
+    mia "Hehehee, Espero que Deus não esteja assistindo ... "
     show rossg 2
-    ross "You're both doing a great job!"
+    ross "Vocês dois estão fazendo um ótimo trabalho! "
     show rossg 1
-    ross "Keep going."
+    ross "Continue."
     show rossg 5_6 with dissolve
     pause
     ross "Mmm..."
     pause
     show rossg 1 with dissolve
-    ross "Very good, {b}[firstname]{/b}!"
+    ross "Muito bom, {b}[firstname]{/b}!"
     show rossg 2
-    ross "Now try feeling, {b}Mia's{/b} shapes."
+    ross "Agora tente sentir as formas de {b}Mia's{/b}."
     show rossg 3
-    player_name "I uhh..."
+    player_name "Eu ... "
     show rossg 4
-    mia "It's okay!"
-    mia "Feel the shapes, {b}[firstname]{/b}!"
+    mia "Está bem!"
+    mia "Sinta as formas, {b}[firstname]{/b}!"
     show rossg 7_8 at Position(xpos=0.59, ypos=1.0) with dissolve
     pause
     show rossg 4 at Position(xpos=0.6, ypos=1.0) with dissolve
@@ -570,50 +570,50 @@ label button_ross_found_model:
     show rossg 9 with dissolve
     mia "Pfft, Hahahahaha!!!!"
     show rossg 2 with dissolve
-    ross "Oh, isn't she just the most adorable thing ever?!"
-    ross "Alright, now feel mine again..."
+    ross "Oh, ela não é a coisa mais adorável de todas? "
+    ross "Tudo bem, agora sinta o meu novamente ... "
     show rossg 5_6 with dissolve
     pause
     show judith 58f
-    jud "... You guys can feel my shapes if you want."
+    jud "... Vocês podem sentir minhas formas, se quiserem. "
     show judith 57f
     show rossg 2 with dissolve
-    ross "Well, goodness! Look who's finally coming out of her shell!"
-    ross "We'll get to you in a second, sweetie. Why don't you go check the supply cabinet for me..."
-    ross "There should be some incense and candles in there to help us set the mood."
+    ross "Bem, Deus! Olha quem finalmente está saindo da sua concha! "
+    ross "Nós vamos chegar em você em um segundo, querida. Por que você não vai verificar o armário de suprimentos para mim ..."
+    ross "Deve haver algum incenso e velas lá para nos ajudar a definir o clima."
     show judith 58f
     show rossg 5_6 with dissolve
-    jud "... Yes, Ma'am."
+    jud "... Sim, senhora."
     hide judith
     with dissolve
     pause
     show rossg 10 with dissolve
-    smi "WHAT IN THE WORLD IS GOING ON IN HERE!?" with hpunch
-    smi "WHY ARE YOU ALL NAKED?!"
+    smi "O QUE ESTÁ ACONTECENDO AQUI!?" with hpunch
+    smi "POR QUE VOCÊ ESTÁ TODO NU ?! "
     hide rossg
     show mia 83 zorder 2 at left
     show ross 39 zorder 1 at Position(xpos=0.25, ypos=1.0)
     show player 100 zorder 0 at Position(xpos=0.35, ypos=1.0)
     show principal 3 at right
     with dissolve
-    ross "{b}Principal Smith{/b}! I was just teaching the students some art techniques..."
+    ross "{b}Principal Smith{/b}! Eu estava apenas ensinando aos alunos algumas técnicas de arte ... "
     show ross 38
     show principal 38
-    smi "ART TECHNIQUES?!?! DO I LOOK LIKE AN IDIOT TO YOU?!"
+    smi "TÉCNICAS DE ARTE?!?! Eu pareço um idiota para você ?! "
     show ross 39
     show principal 3
-    ross "Of course not, we were just-"
+    ross "Claro que não, nós estávamos apenas- "
     show principal 28
     show ross 38
-    smi "DO I NEED TO REMIND YOU THAT THIS IS A SCHOOL AND NOT A BROTHEL!"
+    smi "PRECISO LEMBRAR QUE ESTA É UMA ESCOLA E NÃO UM BROTHEL! "
     show ross 39
     show principal 3
-    ross "You're being ridiculous, I'm just trying to help them improve their art."
+    ross "Você está sendo ridícula, só estou tentando ajudá-los a melhorar sua arte. "
     hide principal
     show principal 34 zorder 3 at Position(xpos=0.65, ypos=1.0)
     with dissolve
     show ross 38
-    smi "JUST GET SOME CLOTHES ON, ALL OF YOU!" with hpunch
+    smi "APENAS Ponha algumas roupas, todos vocês!" with hpunch
 
     hide mia
     hide player
@@ -632,70 +632,70 @@ label button_ross_found_model:
     show player 8 zorder 0 at Position(xpos=0.35, ypos=1.0)
     with dissolve
     show principal 27
-    smi "You had better have a damn good explanation for this, {b}Barbara{/b}!"
+    smi "É melhor você ter uma boa explicação para isso, {b}Barbara{/b}!"
     show mia 45
     show player 11 at Position(xpos=0.38, ypos=1.0)
     with dissolve
     show ross 25
     show principal 29
-    ross "{b}Mia{/b} and I were helping {b}[firstname]{/b} here practice."
-    ross "Trying to prepare him for-"
+    ross "{b}Mia{/b} e eu estava ajudando {b}[firstname]{/b} a praticar. "
+    ross "Tentando praticar para oque? ...
     show ross 24
     ross "..."
     show principal 27
-    smi "Prepare him for what?!"
+    smi "Praticar para o que ?! "
     show principal 29
     show mia 46
-    mia "This ar-"
+    mia "Este ar- "
     show mia 45
     show ross 25
-    ross "A gift!"
-    ross "... He was going to paint something for you, {b}Principal Smith{/b}!"
+    ross "Um presente!"
+    ross "... Ele estava pintando algo para você, {b}Principal Smith{/b}!"
     show ross 24
     pause
     show ross 25
-    ross "A gift, to hang up in your office!"
+    ross "Um presente para enfeitar o seu escritório! "
     show ross 24
     show principal 27
-    smi "A gift?! For me?! What, like a portrait?"
+    smi "Um presente?! Para mim?! Como um retrato? "
     show principal 29
     show ross 25
-    ross "Well, sure! If that's what you want..."
+    ross "Bem, claro! Se é o que você quer..."
     show principal 27
     show ross 24
-    smi "Is he any good?"
+    smi "Ele é bom? "
     show ross 25
     show principal 29
-    ross "Very good, come have a look for yourself!"
+    ross "Muito bom, venha dar uma olhada! "
     show principal 41 with dissolve
     pause
     show principal 42
-    smi "What the hell is this?"
+    smi "O que diabos é isso?"
     show principal 41
     show mia 46
-    mia "Oh, that's umm... That's mine, Ma'am."
-    mia "... I'm not very good."
+    mia "Oh, isso é ... Isso é meu, senhora. "
+    mia "... Não sou muito boa."
     show mia 45
     smi "..."
     show principal 42
-    smi "Then why are you here, after school, taking private courses?"
+    smi "Então, por que você está aqui, depois da escola, fazendo cursos particulares? "
     show principal 41
     show ross 25
-    ross "My classes aren't just for talented artists."
-    ross "They are open to anyone with a desire to express themselves through art."
-    ross "... And {b}Mia{/b} here has a great love for art."
+    ross "Minhas aulas não são apenas para artistas talentosos ".
+    ross "Eles estão abertos a qualquer pessoa que deseje se expressar através da arte ".
+    ross "... E {b}Mia{/b} aqui tem um grande amor pela arte ".
     show ross 24
     show principal 42
     smi "Uh huh..."
-    smi "In reality, you just found yourself a cute little package didn't you?"
+    smi "Na realidade, você acabou de encontrar um pacote bonitinho, não achou? "
     show principal 41
     show ross 25b
-    ross "That's not..."
+    ross "Isso não é..."
     show ross 24
     show principal 42
-    smi "... And now you're just working to unwrap it, huh?"
-    smi "Have youself a little taste?"
-    smi "... I'm well aware of your methods {b}Barbara{/b}."
+    smi "... E agora você está apenas trabalhando para desembrulhá-lo, hein? "
+    smi "Você tem um gostinho? "
+    smi "... Estou bem ciente de seus métodos {b}Barbara{/b}."
     hide principal
     show principal 43 at Position(xpos=0.7, ypos=1.0)
     with dissolve
@@ -703,62 +703,62 @@ label button_ross_found_model:
     show principal 44 at Position(xpos=0.72, ypos=1.0) with dissolve
     smi "Hmm."
     show principal 45
-    smi "The boy painted this?"
+    smi "O garoto pintou isso? "
     show principal 44
     show player 10
-    player_name "Yes, Ma'am."
+    player_name "Sim, senhora."
     show player 11
     show principal 45
-    smi "Well, I guess I was wrong about you, {b}[firstname]{/b}."
-    smi "You're actually good for something, after all..."
+    smi "Bem, acho que estava errado sobre você, {b}[firstname]{/b}."
+    smi "Você é realmente bom para alguma coisa, afinal..."
     show principal 44
     show ross 11
-    ross "He is very talented, isn't he?"
+    ross "Ele é muito talentoso, não é? "
     show ross 24
     hide principal
     show principal 27 at right
     with dissolve
-    smi "Oh, shut up!"
-    smi "I should fire you, right here and now!"
-    smi "In here getting groped by naked students..."
+    smi "Oh, cale a boca! "
+    smi "Eu deveria demiti-la, aqui e agora!"
+    smi "Aqui sendo apalpada por estudantes nus ..."
     hide principal
     show principal 35b at Position(xpos=0.83, ypos=1.0)
     with dissolve
     smi "..."
     show principal 35c
-    smi "This is impressive work though."
+    smi "Este é um trabalho impressionante. "
     show principal 35
     smi "Hmm..."
     hide principal
     show principal 27 at right
     with dissolve
-    smi "I'm feeling generous so I {b}-MIGHT-{/b} let this incident slide!"
+    smi "Estou me sentindo generoso, então eu {b}-PODERIA-{/b}deixar esse incidente deslizar!"
     show ross 25
     show principal 26
-    ross "That would be wond-"
+    ross "Isso seria maravilhoso- "
     show ross 24
     show principal 27
-    smi "... But only if your student here can recreate this quality on a portrait of me!"
+    smi "... Mas somente se o seu aluno aqui puder recriar essa qualidade em um retrato meu! "
     show principal 26
     show ross 25
-    ross "Oh, that's shouldn't be a problem. Right, {b}[firstname]{/b}?"
+    ross "Oh, isso não deve ser um problema certo, {b}[firstname]{/b}?"
     show ross 24
     show player 10
     player_name "Uhh..."
     show player 11
     show principal 27
-    smi "And it has to be to my exact specifications!"
-    smi "No funny business!"
+    smi "E tem que ser com minhas especificações exatas! "
+    smi "Não é engraçado!"
     show principal 29
     show ross 25
-    ross "Oh, of course! Anything you want, Ma'am."
+    ross "Ah, claro! O que você quiser, senhora. "
     show principal 27
     show ross 24
-    smi "Damn right, anything I want!"
+    smi "Muito bem, o que eu quiser! "
     show principal 27
-    smi "Now you kids get your asses home before I change my mind and expel you both!"
+    smi "Agora, vocês, garotos, voltem para casa antes que eu mude de idéia e expulsem vocês dois! "
     show principal 29
     show ross 25
-    ross "Go on you two. I'll see you tomorrow."
+    ross "Vá em frente vocês dois. Vejo voçe amanha."
     return
 # Decompiled by unrpyc: https://github.com/CensoredUsername/unrpyc
