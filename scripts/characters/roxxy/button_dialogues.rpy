@@ -2,201 +2,201 @@ label roxxy_dialogue_exam_convince:
     show roxxy 1 at right
     show player 10 at left
     with dissolve
-    player_name "Hey there, {b}Roxxy{/b}!"
+    player_name "Olá, {b}Roxxy{/b}!"
     show player 5
     show roxxy 30
-    rox "Gross, go away!"
+    rox "Nojento, vá embora!"
     show roxxy 29
     show player 10
-    player_name "C'mon, {b}Roxxy{/b}. I didn't intend for you to recite that speech with me."
+    player_name "Vamos lá, {b}Roxxy{/b}. Não pretendia que você recitasse esse discurso comigo. "
     show player 5
     show roxxy 31
-    rox "Ugh, don't remind me!"
-    rox "You're lucky I don't beat the shit out of you for that."
+    rox "Ugh, não me lembre! "
+    rox "Você tem sorte de não bater em você por isso."
     show roxxy 30
-    rox "I was completely humiliated!"
+    rox "Eu estava completamente humilhada! "
     show roxxy 29
     show player 12
-    player_name "Yeah, well I didn't want to read it either!"
+    player_name "Sim, bem, eu também não queria ler! "
     show player 5
     show roxxy 30
-    rox "Who cares what you want?!"
+    rox "Quem se importa com o que você quer ?! "
     show roxxy 29
     show player 22
     player_name "..."
     show player 10
-    player_name "Listen, I'm sorry, alright..."
-    player_name "I want to make it up to you!"
+    player_name "Ouça, desculpe, tudo bem ... "
+    player_name "Quero fazer as pazes com você!"
     show player 5
     show roxxy 30
-    rox "Oh really?"
-    rox "How do you think you're going to do that?"
+    rox "Sério?"
+    rox "Como você acha que vai fazer isso?"
     show roxxy 29
     show player 10
-    player_name "Well, we have that French exam coming up. I thought maybe I could help you study for it?"
+    player_name "Bem, temos o exame de francês chegando. Eu pensei que talvez eu pudesse ajudá-lo a estudar para isso? "
     show player 5
     show roxxy 14
     rox "..."
     show roxxy 3
-    rox "Why would I want to study for that stupid class?"
+    rox "Por que eu iria querer estudar para aquela aula estúpida? "
     show roxxy 29
     show player 12
-    player_name "Don't you care about your grades?"
+    player_name "Você não se importa com suas notas? "
     show player 5
     show roxxy 2
-    rox "Pfft, no."
+    rox "Pfft, não."
     show roxxy 28
-    rox "The only thing I cared about was the cheer squad but that's all over now..."
+    rox "A única coisa que me importava era a torcida, mas tudo acabou agora ... "
     show roxxy 27
     show player 12
-    player_name "Huh? You're not on the cheer squad anymore?"
+    player_name "Hã? Você não está mais na torcida? "
     show player 5
     show roxxy 32 with dissolve
     rox "..."
     show player 10
-    player_name "What happened?"
+    player_name "O que aconteceu?"
     show player 5
     show roxxy 33
-    rox "Ugh, that stupid Dyke, {b}Coach Bridget{/b}..."
-    rox "She got all pissy the other day, yelling about how I don't listen to her or something..."
+    rox "Ugh, aquele Dike estúpido, {b}Treinadora Bridget{/b}..."
+    rox "Ela ficou toda irritada no outro dia, gritando sobre como eu não a ouço ou algo assim ... "
     show roxxy 30 with dissolve
-    rox "I dunno, I wasn't really paying attention."
+    rox "Não sei, não estava prestando muita atenção. "
     show roxxy 29
     show player 37 with dissolve
     player_name "..."
     show roxxy 28
-    rox "But she took my {b}Pom Poms{/b} and suspended me."
+    rox "Mas ela pegou meus {b}Pom Poms{/b} e me suspendeu. "
     show roxxy 27
     show player 10 with dissolve
-    player_name "For how long?"
+    player_name "Por quanto tempo?"
     show player 5
     show roxxy 28
-    rox "Until the State Championship..."
+    rox "Até o campeonato estadual ... "
     show roxxy 30
-    rox "How am I supposed to practice without my {b}Pom Poms{/b}?"
+    rox "Como eu devo praticar sem os meus {b}Pom Poms{/b}?"
     show roxxy 29
     show player 34
     player_name "..."
     show player 35
-    player_name "What if I got them back for you?"
+    player_name "E se eu os trouxer de volta para você? "
     show player 5
     show roxxy 2
-    rox "Pfft, yeah right."
+    rox "Pfft, sim, certo. "
     show roxxy 1
     show player 12
-    player_name "I'm serious!"
-    player_name "That would make up for embarrassing you the other day, wouldn't it?"
+    player_name "Estou falando sério!"
+    player_name "Isso compensaria você do outro dia embaraçoso, não seria?"
     show player 5
     show roxxy 27
     rox "..."
     show roxxy 14
-    rox "I guess."
+    rox "Eu acho."
     show roxxy 27
     show player 33
-    player_name "Then consider it done!"
+    player_name "Então considere feito! "
     show player 14
-    player_name "I'll be right back with those {b}Pom Poms{/b}."
+    player_name "Volto já com aqueles {b}Pom Poms{/b}."
     show player 13
     show roxxy 14
-    rox "Whatever..."
+    rox "Tanto faz..."
     hide roxxy with dissolve
     show player 35
     player_name "Hmm, {b}Roxxy's Pom Poms{/b}..."
-    player_name "I bet {b}Coach Bridget{/b} has them stashed away {b}in her office{/b} somewhere."
+    player_name "eu aposto que o {b}treinador Bridget{/b} os escondeu {b}no escritório dela{/b} em algum lugar."
     return
 
 label roxxy_dialogue_exam_convince_roxxy_sex:
     show roxxy 1 at right
     show player 10 at left
     with dissolve
-    player_name "Hey there, {b}Roxxy{/b}!"
+    player_name "Olá, {b}Roxxy{/b}!"
     show player 5
     show roxxy 3
-    rox "{b}#Sigh*{/b} Sorry, about all the yelling {b}[firstname]{/b}..."
-    rox "I wasn't mad at you or anything... Just that stupid mush mouth bitch!"
+    rox "{b}*Suspiro*{/b} Desculpe, por todos os gritos {b}[firstname]{/b}..."
+    rox "Eu não estava bravo com você ou algo assim ... Apenas aquela puta estúpida e boazinha! "
     show roxxy 29
     show player 10
-    player_name "I know that {b}Roxxy{/b} but you shouldn't let her get you so worked up..."
+    player_name "Eu sei disso {b}Roxxy{/b} mas você não deve deixá-la te deixar tão excitada ... "
     show player 5
     show roxxy 31
-    rox "Ugh, I can't help it!"
-    rox "You know I hate feeling embarrassed..."
+    rox "Ugh, não posso evitar! "
+    rox "Você sabe que eu odeio me sentir envergonhada ..."
     show roxxy 30
-    rox "... And that was utterly humiliating!"
+    rox "... E isso foi totalmente humilhante! "
     show roxxy 29
     show player 12
-    player_name "Seriously, it wasn't that bad. Something else must be bothering you."
-    player_name "What happened?"
+    player_name "Sério, não foi tão ruim assim. Outra coisa deve estar incomodando você. "
+    player_name "O que aconteceu?"
     show player 5
     show roxxy 30
-    rox "{b}*Sigh*{/b} I don't wanna talk about it."
+    rox "{b}*Suspiro*{/b} Eu não quero falar sobre isso. "
     show roxxy 29
     show player 22
     player_name "..."
     show player 10
-    player_name "{b}Roxxy{/b}... Don't be like that."
-    player_name "I'm your boyfriend, remember?"
-    player_name "You can depend on me."
+    player_name "{b}Roxxy{/b}... Não seja assim. "
+    player_name "Eu sou seu namorado, lembra?"
+    player_name "Você pode confiar em mim."
     show player 5
     show roxxy 1b
-    rox "Look, I appreciate what you're saying, {b}[firstname]{/b} but there's nothing you can do to help me this time."
+    rox "Olha, eu aprecio o que você está dizendo, {b}[firstname]{/b} mas não há nada que você possa fazer para me ajudar desta vez. "
     show roxxy 30
-    rox "I just, don't even wanna think about this stupid school and its dumb teachers."
+    rox "Eu só, nem quero pensar sobre essa escola estúpida e seus professores idiotas. "
     show roxxy 29
     show player 10
-    player_name "Alright well, what about that French exam we have coming up? Do you wanna study for it, together?"
+    player_name "Tudo bem, e quanto ao exame de francês que estamos chegando? Você quer estudar juntos? "
     show player 5
     show roxxy 14
     rox "..."
     show roxxy 3
-    rox "Ugh, {b}[firstname]{/b}... Seriously-"
+    rox "Ugh, {b}[firstname]{/b}... A sério-"
     show roxxy 29
     show player 12
-    player_name "{b}Roxxy{/b}, you have to keep your grades up!"
+    player_name "{b}Roxxy{/b}, você tem que manter suas notas altas! "
     show player 5
     show roxxy 31
-    rox "It's too late, okay?!"
+    rox "É tarde demais, ok ?! "
     show roxxy 1l
-    rox "I screwed up..."
+    rox "Estraguei tudo..."
     show roxxy 1o
     show player 12
-    player_name "Huh? What happened?!"
+    player_name "Hã? O que aconteceu?!"
     show player 5
     show roxxy 33b with dissolve
     rox "..."
     show player 10
-    player_name "How did you screw up?"
+    player_name "Como você estragou? "
     show player 5
     show roxxy 33
-    rox "Ugh, that stupid Dyke, {b}Coach Bridget{/b}..."
-    rox "She got all pissy the other day, yelling about how I don't listen to her or something..."
+    rox "Ugh, aquele dike estúpido, {b}Treinadora Bridget{/b}..."
+    rox "Ela ficou toda irritada no outro dia, gritando sobre como eu não a ouço ou algo assim ... "
     show roxxy 30 with dissolve
-    rox "I dunno, I wasn't really paying attention."
+    rox "Não sei, não estava prestando muita atenção. "
     show roxxy 29
     show player 37 with dissolve
     player_name "..."
     show roxxy 28
-    rox "... But she took my {b}Pom Poms{/b} and suspended me."
+    rox "... Mas ela pegou meus {b}Pom Poms{/b} e me suspendeu."
     show roxxy 27
     show player 10 with dissolve
-    player_name "For how long?"
+    player_name "Por quanto tempo?"
     show player 5
     show roxxy 28
-    rox "Until the State Championship..."
+    rox "Até o campeonato estadual ... "
     show roxxy 30
-    rox "How am I supposed to practice without my {b}Pom Poms{/b}?"
+    rox "Como eu devo praticar sem meus {b}Pom Poms{/b}?"
     show roxxy 29
     show player 34
     player_name "..."
     show player 35
-    player_name "What if I got them back for you?"
+    player_name "E se eu os trouxer de volta para você? "
     show player 5
     show roxxy 2
-    rox "Pfft, yeah right."
+    rox "Pfft, sim, certo. "
     show roxxy 1
     show player 12
-    player_name "I'm serious!"
-    player_name "Then you could practice again and {b}Coach Bridget{/b} wouldn't even know they're gone."
+    player_name "Estou falando sério!"
+    player_name "Então você poderia praticar novamente e a {b}treinadora Bridget{/b} nem saberia que eles se foram. "
     show player 5
     show roxxy 27
     rox "..."
